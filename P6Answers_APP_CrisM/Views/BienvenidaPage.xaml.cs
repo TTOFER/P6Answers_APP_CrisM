@@ -59,7 +59,7 @@ public partial class BienvenidaPage : ContentPage
             {
                 var jsonResponse = await response.Content.ReadAsStringAsync();
                 var user = JsonConvert.DeserializeObject<User>(jsonResponse);
-                // Aquí puedes manejar la información del usuario, por ejemplo, almacenarla para uso posterior.
+                
                 return true;
             }
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P6Answers_APP_CrisM.Views.PreguntaPage"
+             Title="PreguntaPage"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout>
+        <Label Text="Pregunta" FontSize="Large" HorizontalOptions="Center"/>
+
+        <Entry x:Name="TxtAsk" Placeholder="Ingrese la pregunta" FontSize="25"/>
+
+        <Button x:Name="BtnGuardarPregunta" Text="Ingresar" BackgroundColor="Green" Margin="0,30,0,0"/>
+    </VerticalStackLayout>
+</ContentPage>
